@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina Programa 4.0 | Proyecto Final Integrador - Primeros pasos del desarrollo FrontEnd</title>
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+    <!-- AGREGAMOS LINK A CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- AGREGAMOS LINK A CSS PROPIO -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+        <!-- CONTENEDOR PRINCIPAL 
+        UTILIZAMOS LAS CLASES DE BOOTSTRAP PARA HACER EL SITIO FULL WEBRESPONSIVE
+        -->
+        <!-- CREAMOS EL CONTENEDOR PRINCIPAL DE TODO LA WEB -->
+        <div class="container" style="background-color: rgb(167, 218, 201);">
+
+            <!-- CREAMOS UNA FILA PARA UTILIZAR DE CABECERA CON 2 DIVISIONES -->
+            <div class="row my-5 bg-dark text-white">
+
+                <!-- CREAMOS EL CONTENEDOR IZQUIERDO DE LA FILA -->
+                <div class="col-sm-12 col-md-6 col-lg 6 col-xl-6 text-center">
+                    <h2>ARGENTINA PROGRAMA 4.0</h2>
+                    <h5>Primeros pasos del desarrollo FrontEnd</h5>
+                </div>
+
+                <!-- CREAMOS EL CONTENEDOR DERECHO DE LA FILA -->
+                <div class="col-sm-12 col-md-6 col-lg 6 col-xl-6 text-center">
+                    <h2>Proyecto final integrador</h2>
+                    <h5>Curriculum Vitae</h5>
+                </div>
+
+            </div>
+
+            <!-- CREMOS UNA NUEVA FILA QUE UTILIZAREMOS COMO CONTENEDOR PRINCIPAL -->
+            <div class="row">
+
+                <!-- DECLARAMOS UN BLOQUE QUE CONTENGA LA INFORMACION PERSONAL, 
+                    DECLARADAS LAS CANT. DE COLUMNAS A UTILIZAR POR TAMAÑO 
+                    DE DISPOSITIVO -->
+                <div class="col-sm-4 col-md-4 col-lg-6 col-xl-6 text-center">
+
+                    <div class="foto_perfil" id="foto_perfil">
+                        <!-- INSERTAR ETIQUETA CON JAVASCRIPT -->
+                    </div>
+                </div>
+
+                <!-- DECLARADAS LAS CANT. DE COLUMNAS 
+                    A UTILIZAR POR TAMAÑO DE DISPOSITIVO -->
+                <div class="col-sm-8 col-md-8 col-lg-6 col-xl-6">
+                    <p id="datos_persona" class="datos_persona">
+                        <!-- INSERTAR ETIQUETA CON JAVASCRIPT -->
+                        <ul>
+                            <li id="persona_email"><b>Email:</b> </li>
+                            <li id="persona_direccion"><b>Direccion:</b> </li>
+                            <li id="persona_telefono"><b>Telefono:</b> </li>
+                            <li id="persona_edad"><b>Edad:</b> </li>
+                            <li id="persona_nacionalidad"><b>Nacionalidad:</b> </li>
+                        </ul>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="row" id="datos_profesional">
+
+                <!-- AGREGAMOS OTRO BLOQUE QUE CONTENGA EXPERIENCIAS, ESTUDIOS, ETC, 
+                    DECLARADAS LAS CANT. DE COLUMNAS A UTILIZAR POR TAMAÑO DE 
+                    DISPOSITIVO -->
+                <div class="col-sm-12 col-md-8 col-lg-9 col-xl-9">
+
+                    <!-- BLOQUE CON INFORMACION PROFESIONAL -->
+                    <div class="info_profesional">
+                        <ul>
+                            <li>
+                                <p>
+                                <h4>Ultima exp. laboral</h4>
+                                <h6>Fecha</h6>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur vel justo sed semper. Pellentesque quis lectus ac velit pulvinar faucibus ac ac est. Praesent elementum sapien magna, et aliquet ligula sodales malesuada. Aliquam erat.
+                                </p>
+                            </li>
+                            <!-- <br> -->
+                            <li>
+                                <p>
+                                <h4>Ultima exp. laboral</h4>
+                                <h6>Fecha</h6>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur vel justo sed semper. Pellentesque quis lectus ac velit pulvinar faucibus ac ac est. Praesent elementum sapien magna, et aliquet ligula sodales malesuada. Aliquam erat.
+                                </p>
+                            </li>
+                            <!-- <br> -->
+                            <li>
+                                <p>
+                                <h4>Ultima exp. laboral</h4>
+                                <h6>Fecha</h6>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur vel justo sed semper. Pellentesque quis lectus ac velit pulvinar faucibus ac ac est. Praesent elementum sapien magna, et aliquet ligula sodales malesuada. Aliquam erat.
+                                </p>
+                            </li>
+                            <!-- <br> -->
+                        </ul>
+
+                        <p>
+                            <h4>Conocimientos</h4>
+                                <ul>
+                                    <li>Paquete Microsoft Office</li>
+                                    <li>Adobe Illustrator / Photoshop</li>
+                                    <li>Python</li>
+                                    <li>Microchips, Electronica</li>
+                                </ul>
+                        </p>
+
+                    </div>
+                </div>
+
+
+                    <!-- BLOQUE CON INFORMACION ADICIONAL, DECLARADAS LAS CANT. DE 
+                        COLUMNAS A UTILIZAR POR TAMAÑO DE DISPOSITIVO-->
+                <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                    <p>
+                        <h4>Hobbies</h4>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur vel justo sed semper. Pellentesque quis lectus ac velit pulvinar faucibus ac ac est. Praesent elementum sapien magna, et aliquet ligula sodales malesuada. Aliquam erat.</li>
+                                <br>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur vel justo sed semper. Pellentesque quis lectus ac velit pulvinar faucibus ac ac est. Praesent elementum sapien magna, et aliquet ligula sodales malesuada. Aliquam erat.</li>
+                                <br>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur vel justo sed semper. Pellentesque quis lectus ac velit pulvinar faucibus ac ac est. Praesent elementum sapien magna, et aliquet ligula sodales malesuada. Aliquam erat.</li>
+                                <br>
+                            </ul>
+                    </p>
+                </div>
+                
+            </div>
+
+            <!-- PIE DE PAGINA -->
+            <div class="row text-center">
+                <h6 style="color: white; background-color: rgb(33, 37, 41);">Seguime en las siguientes redes sociales!</h6>
+                <div class="col-12 text-center">
+                    <a href="http://linkedin.com"><img src="img/linkedin.svg" alt="LinkedIn" width="60px" height="60px"></a>
+                    <a href="http://instagram.com"><img src="img/instagram.svg" alt="instagram" width="60px" height="60px"></a>
+                    <a href="http://facebook.com"><img src="img/facebook.svg" alt="Facebook" width="60px" height="60px"></a>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- EJECUTA BOOTSTRAP -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="js/funciones.js"></script>
+        
+</body>
+</html>

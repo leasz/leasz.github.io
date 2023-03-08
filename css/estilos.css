@@ -1,0 +1,22 @@
+/* *{
+    border: 1px dotted black;
+} */
+
+.datos_persona {
+    /* LE COPIAMOS LOS VALORES RGB QUE USA BOOTSTRAP PARA EL DARK */
+    background-color: rgb(33, 37, 41);
+    opacity: 1;
+    border-radius: 3px;
+    color: white;
+    padding-left: 25px;
+}
+
+.foto_perfil {
+    /* LE COPIAMOS LOS VALORES RGB QUE USA BOOTSTRAP PARA EL DARK */
+    background-color: rgb(33, 37, 41);
+    opacity: 1;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/* style="background-color: rgb(33, 37, 41);" */
